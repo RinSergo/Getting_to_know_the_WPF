@@ -1,0 +1,13 @@
+﻿<Window x:Class="Task1_SergoruchnayaRina.SecondWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task1_SergoruchnayaRina"
+        mc:Ignorable="d"
+        Title="SecondWindow" Height="450" Width="800">
+    <Grid x:Name="sW">
+        <Image Source="Resources/smile.jpg" HorizontalAlignment="Center" Height="213" VerticalAlignment="Center" Width="226"/>
+        <Button Content="Back" Click="Button_Click" Width="100" Height="25" HorizontalAlignment="Center" Background="BlueViolet" Margin="300,300,300, 10" FontWeight="Bold" />
+    </Grid>
+</Window>
